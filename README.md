@@ -1,5 +1,6 @@
 # Conditional Statements in Python
-
+## NAME: PRIYANKA P
+## REG NO: 212224230212
 ## 🎯 Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
