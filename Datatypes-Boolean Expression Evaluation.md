@@ -1,33 +1,32 @@
-# Ex 1:Datatypes-Boolean Expression Evaluation in Python
 
-## 🎯 Aim
+# 1b Datatypes-Boolean Expression Evaluation in Python
+
+##  Aim
 To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
 
-## 🧠 Algorithm
+##  Algorithm
+1. Set variable `a` to the result of the expression `0 == True`.
+2. Set variable `b` to the result of the expression `False == False`.
+3. Set variable `c` to the result of the expression `True + True`.
+4. Set variable `d` to the result of the expression `False + 9`.
+5. Print the value of `a` with the label "a is".
+6. Print the value of `b` with the label "b is".
+7. Print the value of `c` with the label "c:".
+8. Print the value of `d` with the label "d:".
 
-Step 1: Input
-Read string a from the user.
-
-Read string b from the user.
-
-Step 2: Comparison
-Use the == operator to check whether both strings are exactly the same (including case, whitespace, etc.).
-
-Step 3: Output
-Print True if a is equal to b, else print False.
-
-## 💻 Program
-``` python
-a=(input())
-b=(input())
-print((a == b))
+##  Program
 ```
-
+a = (0 == True)
+b = (False == False)
+c = True + True
+d = False + 9
+print("a is",a)
+print("b is",b)
+print("c:",c)
+print("d:",d)
+```
 ## Output
-
-![image](https://github.com/user-attachments/assets/14e4027f-087f-4243-917e-282e1b2e7e1f)
+<img width="416" height="244" alt="image" src="https://github.com/user-attachments/assets/54291349-1619-45b9-b60f-3f1c49fb275f" />
 
 ## Result
-
-Thus the python program to print the boolean value is executed successfully.
-
+Thus,the python program was executed successfully
