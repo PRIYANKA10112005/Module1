@@ -1,33 +1,27 @@
-# Conditional Statements in Python
+# 1a Conditional Statements in Python: Even or Odd Checker
 
-## 🎯 Aim
+##  Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
-## 🧠 Algorithm
-Step 1: Input
-Read an integer a from the user.
+##  Algorithm
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
 
-Step 2: Check Divisibility
-Use the modulus operator % to check if a % 9 == 0.
-
-If True, a is divisible by 9.
-
-If False, it is not divisible by 9.
-
-Step 3: Output
-Display a message based on the result of the check.
-
-## 🧾 Program
-``` python
-a=int(input())
-if a%9==0:
-    print(a,"is divisible by 9")
-else:
-        print(a,"is NOT divisible by 9")
+##  Program
 ```
-## Output
+a = int(input())
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
+```
 
-![image](https://github.com/user-attachments/assets/8f5cd46d-ee17-491d-b1f5-97db00c6942e)
+## Output
+<img width="342" height="202" alt="image" src="https://github.com/user-attachments/assets/a288062d-8c8e-450f-b6cb-c3571106c260" />
 
 ## Result
-Thus the python program to check whether the given input is divisible by 9 or not.
+Thus,the python program was executed successfully
