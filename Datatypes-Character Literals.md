@@ -11,7 +11,7 @@ To write a Python program that prints the characters `'T'` and `'a'` using chara
 ```
 v = 'T'
 w = "a"
-print(v)
+print(v)  
 print(w)
 ```
 ## Output
