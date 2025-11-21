@@ -17,7 +17,7 @@ x=int(input(''))
 y=int(input(''))
 x=complex(x,y)
 print(x)
-print(x.real)
+print(x.real)  
 print(x.imag)
 ```
 
