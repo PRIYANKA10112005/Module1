@@ -11,7 +11,7 @@ To write a Python program to read a string from the user and then print it.
 ## Program
 ```
 men_stepped_on_the_moon=input()
-print(men_stepped_on_the_moon)
+print(men_stepped_on_the_moon)  
 ```
 ## Output
 <img width="993" height="278" alt="image" src="https://github.com/user-attachments/assets/0d69a507-9542-49c6-a879-632cb7d3e827" />
